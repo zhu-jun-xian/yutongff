@@ -1,0 +1,33 @@
+<view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='16' type='search'></icon>
+        <input class="sousuo"  placeholder="搜索" bindconfirm='searchgo'  value="{{inputvalue}}"  confirm-type="search"  />
+      </view>
+    </view>
+  </view>
+
+<view class="filter-view" wx:key="index" wx:for="{{datas}}" wx:for-index="index" wx:for-item="itemName">
+  <view  wx:if="{{index %2 ==0}}">
+  <view class="bg_green">
+    <text>{{index}}.</text>
+    <text>{{itemName.name}}</text>
+    </view>
+    <view class="bg_grey">
+    <text>{{itemName.explain}}\n</text>
+    </view>
+  </view>
+   <view wx:else>
+  <view class="bg_green">
+    <text>{{index}}.</text>
+    <text>{{itemName.name}}</text>
+    </view>
+    <view class="bg_grey">
+    <text>{{itemName.explain}}\n</text>
+    </view>
+  </view>
+</view>
+
+ <view class="item-view item-o bg-white"  wx:if="{{datas&&datas.length===0 && searchText.length>0}}">
+    <text>{{noResult}}</text>
+  </view>

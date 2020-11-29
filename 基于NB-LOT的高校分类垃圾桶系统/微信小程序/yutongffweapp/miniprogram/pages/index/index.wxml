@@ -1,0 +1,55 @@
+
+<!-- <view class='home_first_view'>
+  <view class='search'>
+    <icon class='searchcion' size='20' type='search' catchtap='searchNow'></icon>
+    <input  class="inputclass" placeholder='垃圾分类快速搜索'  bindfocus="gosearch"></input>
+</view> 
+</view>-->
+<view class='home_second_view'>
+<view class='second_view'>
+<image src='/images/garbage_collection.png' class='second_single_view' bindtap='gosearch' />
+  <text class='txt'>垃圾回收</text>
+</view>
+<view class='second_view'>
+<image src='/images/sweep_code_delivery.png' class='second_single_view' bindtap='OnBindScan' />
+  <text class='txt'>扫码投递</text>
+</view>
+<view class='second_view'>
+ <image src='/images/charge-the_delivery.png' class='second_single_view' bindtap='onBindscan' />
+  <text class='txt'>刷卡投递</text>
+</view>
+<view class='second_view'>
+<image src='/images/instruction.png' class='second_single_view' bindtap='onBindCamera' />
+  <text class='txt'>操作指南</text>
+</view>
+</view>
+
+
+<view class="home_third_view">
+  <view class="third_view " bindtap="onClick">
+    <image src='/images/red_rectangle.png' class='red_rectangle' bindtap='onBindCamera' />
+  </view>
+  <view class="third_txt">
+  <text class='third_txt_font'>个人积分</text>
+ 
+  </view >
+  <view class="third_single_view">
+   <image src='/images/Individual_points.png' class='Individual_points' bindtap='onBindCamera' />
+  </view>
+  <view  class='third_txt_font_two'>
+    <text class='third_txt_font'>{{score}}</text>
+  </view>
+  
+</view>
+
+<view class="home_third_view">
+  <view class="third_view " bindtap="onClick">
+    <image src='/images/red_rectangle.png' class='red_rectangle' bindtap='onBindCamera' />
+  </view>
+  <view class="third_txt">
+  <text class='third_txt_font'>投递信息</text>
+  </view>
+  <view class="third_single_view">
+   <image src='/images/delivery_record.png' class='Individual_points' bindtap='onBindCamera' />
+  </view>
+</view>

@@ -1,0 +1,75 @@
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+
+.filter-view {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.item-view{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 50rpx;
+  height: 90rpx;
+  align-items: center;
+}
+.img{
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 30rpx;
+}
+.item-ji {
+  background-color:  #f6f6f6;
+	color:black;
+}
+.cu-dialog{
+  width: 300rpx;
+}
+.bg-img{
+  width: 300rpx;
+  height: 300rpx;
+}
+.search{
+  width: 98%;
+}
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.sousuo {
+  padding-left: 38%;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+}
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  margin-left:38%;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+    }
+.bg_green{
+  background-color: greenyellow;
+}
+.bg_grey{
+  background-color: grey;
+}
+
